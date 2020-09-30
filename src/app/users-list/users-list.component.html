@@ -1,0 +1,28 @@
+<div class="container">
+  <h1>Users List</h1>
+  <div class="container">
+    <div class="row">
+      <p style="padding-right: 10px">Name:</p>
+      <p>{{ name }}</p>
+    </div>
+    <div class="row">
+      <p style="padding-right: 10px">Age:</p>
+      <p>{{ age }}</p>
+    </div>
+    <div class="row">
+      <p style="padding-right: 10px">City:</p>
+      <p>{{ city }}</p>
+    </div>
+    <div class="row">
+      <p style="padding-right: 10px">Address:</p>
+      <p>{{ address }}</p>
+    </div>
+    <div class="row">
+      <p style="padding-right: 10px">Pincode:</p>
+      <p>{{ pincode }}</p>
+    </div>
+  </div>
+  <button mat-fab (click)="openDialog()">
+    <mat-icon>create</mat-icon>
+  </button>
+</div>
